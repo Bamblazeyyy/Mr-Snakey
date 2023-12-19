@@ -10,7 +10,7 @@ public class startView implements ActionListener{
  
 
  JFrame frame = new JFrame();
- JButton myButton = new JButton("PLAY");
+ JButton myButton = new JButton("START");
  
  startView(){
   
