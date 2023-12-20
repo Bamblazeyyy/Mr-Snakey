@@ -22,7 +22,7 @@ public class musicStuff {
 				
 				
 		}	else {
-			System.out.print("Can't find file");
+			System.out.print("Cannot find the file");
 		}
 		}
 		
