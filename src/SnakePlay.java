@@ -90,8 +90,8 @@ public SnakePlay() {
 		//draw the scores and snake's length
 		g.setColor(Color.WHITE);
 		g.setFont(new Font("Verdana",Font.PLAIN,17));
-		g.drawString("Scores : "+ scores, 50, 45);
-		g.drawString("Length : "+ lengthofsnake,743, 45);
+		g.drawString("Highest Scores : "+ scores, 50, 45);
+		g.drawString("Snake Length : "+ lengthofsnake,743, 45);
 
 		rightmouth = new ImageIcon("rightmouth.png");
 		rightmouth.paintIcon(this, g, snakexlength[0], snakeylength[0]);
